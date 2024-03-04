@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="personalInfo" targetNamespace="http://tempuri.org/personalInfo.xsd" xmlns:mstns="http://tempuri.org/personalInfo.xsd" xmlns="http://tempuri.org/personalInfo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="personalInfo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="personalInfo" msprop:Generator_DataSetName="personalInfo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PersonalInfo" msprop:Generator_TableClassName="PersonalInfoDataTable" msprop:Generator_TableVarName="tablePersonalInfo" msprop:Generator_TablePropName="_PersonalInfo" msprop:Generator_RowDeletingName="PersonalInfoRowDeleting" msprop:Generator_RowChangingName="PersonalInfoRowChanging" msprop:Generator_RowEvHandlerName="PersonalInfoRowChangeEventHandler" msprop:Generator_RowDeletedName="PersonalInfoRowDeleted" msprop:Generator_UserTableName="PersonalInfo" msprop:Generator_RowChangedName="PersonalInfoRowChanged" msprop:Generator_RowEvArgName="PersonalInfoRowChangeEvent" msprop:Generator_RowClassName="PersonalInfoRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PERINFO_ID" msprop:Generator_ColumnVarNameInTable="columnPERINFO_ID" msprop:Generator_ColumnPropNameInRow="PERINFO_ID" msprop:Generator_ColumnPropNameInTable="PERINFO_IDColumn" msprop:Generator_UserColumnName="PERINFO_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="PARTICULAR_NAME" msprop:Generator_ColumnVarNameInTable="columnPARTICULAR_NAME" msprop:Generator_ColumnPropNameInRow="PARTICULAR_NAME" msprop:Generator_ColumnPropNameInTable="PARTICULAR_NAMEColumn" msprop:Generator_UserColumnName="PARTICULAR_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="EMP_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="EMP_JOINING_DATE" type="xs:string" minOccurs="0" />
+              <xs:element name="PERINFO_PAGE_NO" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AssetUser">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CMP_BRANCH_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="ASSET_TYPE_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="ASSNANO" type="xs:string" minOccurs="0" />
+              <xs:element name="ENAME" type="xs:string" minOccurs="0" />
+              <xs:element name="AT_DETAILS" type="xs:string" minOccurs="0" />
+              <xs:element name="ACQUISITION_DATE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

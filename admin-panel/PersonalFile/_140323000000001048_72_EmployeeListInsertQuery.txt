@@ -1,0 +1,5 @@
+
+select Name,DE.DSG_TITLE,DE.DSG_ID,DP.DPT_NAME,DP.DPT_ID from [dbo].['TOTAL HEADCOUNT$'] as TD
+left join PR_DEPARTMENT as DP on DP.DPT_NAME= TD.Department
+left join PR_DESIGNATION DE on DE.DSG_TITLE =TD.Designation
+where TD.Department is not null and DP.CMP_BRANCH_ID='100310005' and DE.CMP_BRANCH_ID='100310005'

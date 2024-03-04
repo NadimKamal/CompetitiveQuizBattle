@@ -1,0 +1,108 @@
+﻿* {
+    padding: 0; 
+    margin: 0; 
+}
+#ddlSupplierName
+{
+	vertical-align:bottom;
+	margin-bottom: -10px;
+}
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+body {
+	font: 11px Tahoma;
+	background-color: #F7F7E9;
+}
+h1 {
+    font: bold 32px Times;
+	color: #666;
+	text-align: center;
+	padding: 20px 0;    
+}
+#container {
+    width: 700px;
+    margin: 10px auto;
+}
+
+.mGrid { background-color: #fff; margin: 5px 0 10px 0; border: solid 1px #525252; border-collapse:collapse; }
+    .mGrid td { padding: 2px; border: solid 1px #c1c1c1; color: #717171; }
+    .mGrid th
+{
+	padding: 4px 2px;
+	color:  #FFFFFF;
+	background: url(grd_head1.png) activecaption repeat-x 50% top;
+	border-left: solid 0px #525252;
+	font-size: 0.9em;
+}
+.mGrid .alt { background: #fcfcfc url(grd_alt.png) repeat-x top; }
+.mGrid .pgr
+{
+	background-color: activecaption;
+	background-attachment: scroll;
+	background-repeat: repeat-x;
+	background-position: 50% top;
+}
+    .mGrid .pgr table { margin: 5px 0; }
+    .mGrid .pgr td { border-width: 0; padding: 0 6px; border-left: solid 1px #666; font-weight: bold; color: #fff; line-height: 12px; }   
+    .mGrid .pgr a { color: #666; text-decoration: none; }
+    .mGrid .pgr a:hover { color: #000; text-decoration: none; }
+    
+    
+    
+    
+    .timeGrid { width: 21%; background-color: #CCCCCC; margin: 5px 0 10px 0; border: solid 2px #FFCCCC; border-collapse:collapse; }
+    .timeGrid td { padding: 3px;  border-bottom:outset; border: outset 1px #FFCCCC; color: #000000; }
+    .timeGrid th
+{
+	padding: 4px 2px;
+	color:  #333399;
+	background: url(grd_head1.png) activecaption repeat-x 50% top;
+	border-left: solid 0px #333399;
+	font-size: 0.9em;
+	
+}
+.watermarked {
+	padding:2px 0 0 2px;
+	border:1px solid #BEBEBE;
+	background-color:#F0F8FF;
+	color:gray;
+}
+.txtwatermarked {
+	padding:2px 0 0 2px;
+	border:1px solid #BEBEBE;
+	background-color:#F0F8FF;
+	min-width:120px;
+}	
+
+/*
+	saydur
+*/
+	.glowing-border
+	{
+		border:2px solid #dadada;
+		border-radius:7px;
+		visibility:hidden;        	
+	}
+	.glowing-border:focus
+	{
+		outline:none;
+		border-color:#9ecaed;
+		box-shadow:0 0 10px #9ecaed;
+	}
+	
+	.glowing-border-withouthide
+	{
+		border:2px solid #dadada;
+		border-radius:7px;       	
+	}
+	.glowing-border-withouthide:focus
+	{
+		outline:none;
+		border-color:#9ecaed;
+		box-shadow:0 0 10px #9ecaed;
+	}
+	/*******************************/
